@@ -17,9 +17,9 @@ The key management model adheres to the idea of opportunistic security from RFC 
 A manual verification of keys, for example by comparison of cryptographic [[Fingerprint (cryptography)|fingerprints]], is currently only a planned feature of Autocrypt. Despite this missing specification, most underlying OpenPGP implementations (like [[GNU Privacy Guard|GnuPG]]) already have support for some type of manual verification in practice.
 
 ==  Support ==
-Autocrypt is supported in the [[Mozilla Thunderbird|Thunderbird]] extension [[Enigmail]] since version 2.0<ref>{{Internetquelle|autor=Patrick Brunschwig|url=https://enigmail.net/index.php/en/home/news/63-2018-03-25-enigmail-v2-0-released|titel=Enigmail - 2018-03-25 Enigmail v2.0 released|zugriff=2018-04-24|sprache=en-gb}}</ref>, the Delta Chat messenger from Version 0.9.2<ref>{{Internetquelle|url=https://delta.chat/en/2017-06-28-delta-chat-0-9-2|titel=Delta Chat v0.9.2 feat. Autocrypt Level 1|zugriff=2018-04-26|sprache=en}}</ref> as well as the Android mail-app [[K-9 Mail]] since Version 5.400<ref>{{Internetquelle|url=https://k9mail.github.io/2018/01/07/5.4-Release.html|titel=5.4 Release {{!}} K-9 Mail|zugriff=2018-04-24|sprache=en}}</ref>.
+Autocrypt is supported in the [[Mozilla Thunderbird|Thunderbird]] extension [[Enigmail]] since version 2.0<ref>{{cite web|title=Enigmail - 2018-03-25 Enigmail v2.0 released|periodical=|publisher=|url=https://enigmail.net/index.php/en/home/news/63-2018-03-25-enigmail-v2-0-released|deadurl=|format=|accessdate=2018-04-24|archiveurl=|archivedate=|last=Patrick Brunschwig|date=|year=|month=|day=|language=|pages=|quote=}}</ref>, the Delta Chat messenger from Version 0.9.2<ref>{{cite web|title=Delta Chat v0.9.2 feat. Autocrypt Level 1|periodical=|publisher=|url=https://delta.chat/en/2017-06-28-delta-chat-0-9-2|deadurl=|format=|accessdate=2018-04-26|archiveurl=|archivedate=|last=|date=|year=|month=|day=|language=|pages=|quote=}}</ref> as well as the Android mail-app [[K-9 Mail]] since Version 5.400<ref>{{cite web|title=5.4 Release {{!}} K-9 Mail|periodical=|publisher=|url=https://k9mail.github.io/2018/01/07/5.4-Release.html|deadurl=|format=|accessdate=2018-04-24|archiveurl=|archivedate=|last=|date=|year=|month=|day=|language=|pages=|quote=}}</ref>.
 
-The German Email-Provider [[Posteo]] also supports Autocrypt, by additionally authenticating Autocrypt metadata via [[DomainKeys|DKIM]]<ref>{{Internetquelle|url=https://posteo.de/blog/neu-vereinfachte-e-mail-verschl%C3%BCsselung-mit-autocrypt-und-openpgp-header|titel=posteo.de: Vereinfachte E-Mail-Verschlüsselung mit Autocrypt- und OpenPGP-Header|zugriff=2018-04-24|sprache=de}}</ref>.
+The German Email-Provider [[Posteo]] also supports Autocrypt, by additionally authenticating Autocrypt metadata via [[DomainKeys|DKIM]]<ref>{{cite web|title=posteo.de: Vereinfachte E-Mail-Verschlüsselung mit Autocrypt- und OpenPGP-Header|periodical=|publisher=|url=https://posteo.de/blog/neu-vereinfachte-e-mail-verschl%C3%BCsselung-mit-autocrypt-und-openpgp-header|deadurl=|format=|accessdate=2018-04-24|archiveurl=|archivedate=|last=|date=|year=|month=|day=|language=German|pages=|quote=}}</ref>.
 
 == Further reading ==
 
@@ -29,8 +29,9 @@ The German Email-Provider [[Posteo]] also supports Autocrypt, by additionally au
 
 * [https://autocrypt.org Autocrypt Website] (engl.)
 * [https://autocrypt.org/level1 Autocrypt 1.0 Spezifikation] (engl.)
-* {{Literatur|Titel=Autocrypt automatisiert E-Mail-Kryptografie|Sammelwerk=Heise Select|Online=https://www.heise.de/select/ix/2018/5/1524784198472399|Abruf=2018-04-24}}
-* {{Internetquelle|autor=iX|url=https://www.heise.de/ix/meldung/Einfache-Mail-Verschluesselung-PGP-Helfer-Autocrypt-in-Version-1-0-vorgestellt-3924855.html|titel=Einfache Mail-Verschlüsselung: PGP-Helfer Autocrypt in Version 1.0 vorgestellt|zugriff=2018-04-24|sprache=de-DE}}
+* {{citation/core|Periodical=Heise Select|Title=Autocrypt automatisiert E-Mail-Kryptografie|language=German|URL=https://www.heise.de/select/ix/2018/5/1524784198472399|AccessDate=2018-04-24
+}}
+* {{cite web|title=Einfache Mail-Verschlüsselung: PGP-Helfer Autocrypt in Version 1.0 vorgestellt|periodical=|publisher=|url=https://www.heise.de/ix/meldung/Einfache-Mail-Verschluesselung-PGP-Helfer-Autocrypt-in-Version-1-0-vorgestellt-3924855.html|deadurl=|format=|accessdate=2018-04-24|archiveurl=|archivedate=|last=iX|date=|year=|month=|day=|language=de-DE|pages=|quote=}}
 
 == References ==
 <references />
